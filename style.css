@@ -1,0 +1,44 @@
+/* Añadir márgenes globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Márgenes generales para el cuerpo */
+body {
+    margin: 20px; /* Márgenes para el cuerpo de la página */
+}
+
+/* Márgenes para el header */
+header {
+    margin-bottom: 20px; /* Márgenes en la parte inferior del header */
+}
+
+/* Márgenes para las secciones principales */
+#content {
+    margin-top: 30px;
+}
+
+/* Márgenes para cada contenedor de las secciones */
+.contenedor, .contenedor1, .contenedor0 {
+    margin: 15px 0; /* Márgenes arriba y abajo */
+    padding: 10px; /* Relleno interno para dar espacio entre el contenido y los bordes */
+}
+
+/* Márgenes para cada párrafo de las secciones */
+.parrafo, .parrafo1 {
+    margin: 10px 0; /* Márgenes arriba y abajo */
+}
+
+/* Márgenes en los títulos */
+h2, h3 {
+    margin-bottom: 10px; /* Espacio debajo de los títulos */
+}
+
+/* Márgenes de las imágenes */
+img {
+    margin-bottom: 10px; /* Espacio debajo de las imágenes */
+    max-width: 100%; /* Asegurar que las imágenes no se salgan del contenedor */
+    height: auto;
+}
