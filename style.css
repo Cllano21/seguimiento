@@ -22,8 +22,8 @@ header {
 
 /* Márgenes para cada contenedor de las secciones */
 .contenedor, .contenedor1, .contenedor0 {
-    margin: 15px 0; /* Márgenes arriba y abajo */
-    padding: 10px; /* Relleno interno para dar espacio entre el contenido y los bordes */
+    margin: 20px 0; /* Márgenes arriba y abajo */
+    padding: 20px; /* Relleno interno para dar espacio entre el contenido y los bordes */
 }
 
 /* Márgenes para cada párrafo de las secciones */
